@@ -1,0 +1,25 @@
+{
+  "model_name": "XGBoost Classifier (Supervised)",
+  "model_version": "1.0.0",
+  "accuracy": 0.9998467943028613,
+  "precision": 0.9631811487481591,
+  "recall": 0.993920972644377,
+  "f1_score": 0.9783096484667165,
+  "roc_auc": 0.9990423751358983,
+  "pr_auc": 0.9945267889880817,
+  "false_positive_rate": 0.00013253459152838892,
+  "inference_latency_ms": 0.14250516891479492,
+  "confusion_matrix": {
+    "true_negatives": 188605,
+    "false_positives": 25,
+    "false_negatives": 4,
+    "true_positives": 654
+  },
+  "target_accuracy_met": true,
+  "hyperparameters": {
+    "n_estimators": 120,
+    "max_depth": 6,
+    "learning_rate": 0.1,
+    "scale_pos_weight": 1774.3863636363637
+  }
+}

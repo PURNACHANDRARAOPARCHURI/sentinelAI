@@ -1,0 +1,31 @@
+{
+  "features": [
+    "amount_log",
+    "hour_of_day",
+    "hour_sin",
+    "hour_cos",
+    "is_transfer",
+    "is_cash_out",
+    "is_payment",
+    "is_debit",
+    "is_cash_in",
+    "error_balance_orig",
+    "error_balance_dest",
+    "orig_depleted",
+    "dest_balance_zero",
+    "depletion_ratio",
+    "is_large_transaction",
+    "is_night_transaction"
+  ],
+  "n_features": 16,
+  "scale_pos_weight": 1774.3863636363637,
+  "if_calibration": {
+    "p05": -0.21987538702074505,
+    "p99": 0.005386794014284102,
+    "threshold": 0.65
+  },
+  "training_date": "2026-10-09 17:28:29 UTC",
+  "dataset_rows": 1048575,
+  "train_rows": 859287,
+  "test_rows": 189288
+}
