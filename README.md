@@ -4,7 +4,13 @@ SentinelAI is a production-grade, 100% open-source, multi-layer AI agent system 
 
 ---
 
-## Key Architecture Highlights
+## System Architecture
+
+![SentinelAI Reference Architecture](docs/sentinelai_architecture.jpg)
+
+---
+
+## Key Architecture Workflow
 
 ```mermaid
 flowchart TD
